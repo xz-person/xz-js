@@ -1,0 +1,23 @@
+{
+    "name": "create-xz",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "create-xz": "index.js"
+    },
+    "scripts": {
+        "dev": "unbuild --stub",
+        "build": "unbuild",
+        "test": "vitest",
+        "test:coverage": "vitest run --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/minimist": "^1.2.5",
+        "minimist": "^1.2.8"
+    }
+}
