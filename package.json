@@ -1,0 +1,22 @@
+{
+    "name": "xz",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "xuanzhuo",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^22.10.1",
+        "@types/prompts": "^2.4.9",
+        "@types/semver": "^7.5.8",
+        "kolorist": "^1.8.0",
+        "prompts": "^2.4.2",
+        "semver": "^7.6.3",
+        "typescript": "^5.7.2",
+        "unbuild": "^2.0.0"
+    }
+}
